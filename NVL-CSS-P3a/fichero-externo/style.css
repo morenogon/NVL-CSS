@@ -1,0 +1,11 @@
+body{
+    background-color: #16817a;
+}
+h3, h4, p{
+    text-align: center;
+}
+.flex-container{
+    display: flex;
+    flex-direction: row; /*horizontal*/
+    justify-content: space-evenly; /*espacio entre los elementos es igual*/
+}

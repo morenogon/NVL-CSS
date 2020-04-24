@@ -1,0 +1,5 @@
+img{
+    padding: 32px; /*aplica a todos los lados*/    
+    border: 10px solid orange;
+    margin: 10px;    
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>NVL-CSS-P6c</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li><a href="#gastronomia">Gastronomía</a></li>
+                <li><a href="#masa">Masa</a></li>
+                <li><a href="#chocolate">Chocolate</a></li>
+            </ul>
+        <nav>
+        <div id="gastronomia" class="flex-container" style="align-items: center;">            
+            <img src="https://media.vogue.es/photos/5e95668de7a75f00093841ba/2:3/w_2560%2cc_limit/iStock-622888518.jpg" alt="img tarta" width="400">           
+            <div style="text-align: center;">
+                <h3 style="font-size: small;">GASTRONOMÍA</h3> 
+                <p style="font-size: large;">La receta de la tarta de chocolate de la chef francesa Amandine Chaignot</p>
+                <hr>
+                <p style="font-size: small; color: gray;">Esta deliciosa y sencilla tarta lo tiene todo para satisfacer los paladares más golosos sin complicarse demasiado</p>
+            </div>                    
+        </div>
+        <h4 style="text-align: center;">INGREDIENTES</h4>
+        <div class="flex-container" style="align-items: flex-start;">            
+            <div id="masa">
+                <h4>Para la masa</h4>            
+                <hr class="hr">
+                <p ingrediente="harina">250 g de harina</p>
+                <hr class="hr">
+                <p ingrediente="mantequilla">125 g de mantequilla</p>
+                <hr class="hr">
+                <p especia>5 g de sal</p> 
+            </div>
+            <div id="chocolate">
+                <h4>Para la crema de chocolate</h4>
+                <hr class="hr">
+                <p ingrediente="chocolate">200 g de chocolate</p>
+                <hr class="hr">
+                <p ingrediente="nata">200 g de nata</p>
+            </div>                       
+        </div>
+        <h4 style="text-align: center;">Envía tus comentarios &#128516</h4>
+        <form>
+            <div>
+                <label for="nombre">Nombre: </label>
+                <input id="nombre" type="text">
+            </div>
+            <div>
+                <label for="apellido">Apellido: </label>
+                <input id="apellido" type="text">
+            </div>
+            <div>
+                <label for="email">Email: </label>
+                <input id="email" type="email">
+            </div>
+            <div>
+                <textarea name="comentarios" rows="10" cols="100">Escriba aquí sus comentarios</textarea>
+            </div>
+            <button type="submit" style="width: 100px; height: 25px;">Enviar</button>
+        </form>
+        
+    </body>
+</html>

@@ -1,0 +1,48 @@
+h3{
+    font-family: GTWalsheimVogue, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: gray; 
+}
+body{
+    font-family: DomaineDisplay, Georgia, serif;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+li {
+    float: left;
+}  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+}
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;    
+}
+hr{
+    border: 2px solid red;
+    width: 30px;
+}
+.hr{
+    text-align: left;
+    margin-left: 0;
+}
+[especia]{
+    font-style: italic;
+}
+[ingrediente]{
+    font-style: italic;
+}
+[ingrediente~=harina]{
+    color: grey;
+}
+[ingrediente~=mantequilla]{
+    color: maroon;
+}

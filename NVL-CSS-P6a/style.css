@@ -1,0 +1,47 @@
+img{
+    margin-left: 10px;
+}
+thead{
+    background-color: lightseagreen;     
+}
+td{
+    border-bottom: 1px solid #ddd;
+}
+.text-color-white{
+    color: white;
+    font-weight: bold;
+}
+.font-format{
+    font-weight: bold;
+}
+#diamante{  
+    background-color: rgba(0, 0, 0, 1);
+} 
+#corindon{
+    background-color: rgba(0, 0, 0, 0.8);
+} 
+#topacio{
+    background-color: rgba(0, 0, 0, 0.7);
+}
+#cuarzo{
+    background-color: rgba(0, 0, 0, 0.6);
+}
+#ortosa{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+#apatito{
+    background-color: rgba(0, 0, 0, 0.4);
+}
+#fluorita{
+    background-color: rgba(0, 0, 0, 0.3);
+}
+#calcita{
+    background-color: rgba(0, 0, 0, 0.2);
+}
+#yeso{
+    background-color: rgba(0, 0, 0, 0.1);
+}
+#talco{
+    background-color: rgba(0, 0, 0, 0);
+}
+
